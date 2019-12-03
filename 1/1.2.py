@@ -8,11 +8,11 @@ with open("data.txt", "r") as f:
 	for i in l2:
 		print(i)
 
-	summ = 0
+summ = 0
 
-	for mass in l2:
-		while mass >= 9:
-			mass = (mass // 3) - 2
-			summ += mass
+for mass in l2:
+	while mass >= 9:
+		mass = (mass // 3) - 2
+		summ += mass
 
-	print(summ)
+print(summ)
